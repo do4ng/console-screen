@@ -9,7 +9,7 @@ class ConsoleScreen {
     screenX: process.stdout.columns,
     screenY: process.stdout.rows,
     status: 'offline',
-    core: setInterval(() => 0, 64),
+    core: setInterval(() => 0, 128),
   };
 
   constructor(screen?: Screen) {
