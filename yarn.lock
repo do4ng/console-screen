@@ -303,6 +303,11 @@ confusing-browser-globals@^1.0.10:
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.10.tgz#30d1e7f3d1b882b25ec4933d1d1adac353d20a59"
   integrity sha512-gNld/3lySHwuhaVluJUKLePYirM3QNCKzVxqAdhJII9/WXKVX5PURzMVJspS1jTslSqjeuG4KMVTSouit5YPHA==
 
+console-screen@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/console-screen/-/console-screen-1.0.1.tgz#060eb624a6e21aca47af753d353cf30bdeca3b8b"
+  integrity sha512-EQxUWLh6zlkHqlgs++TgDygb7APLfOOIyI62//g3UAQao/+CSAMRJBOzDqdnYNy5VT/Imes1IL58Qr9BraNBdQ==
+
 cross-spawn@^7.0.2:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
