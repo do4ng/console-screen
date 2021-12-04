@@ -22,9 +22,6 @@ var ConsoleScreen = /** @class */ (function () {
     ConsoleScreen.prototype.clear = function () {
         process.stdout.write('\u001b[2J');
     };
-    ConsoleScreen.prototype.exit = function () {
-        clearInterval(this.$.core);
-    };
     return ConsoleScreen;
 }());
 
