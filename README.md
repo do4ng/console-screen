@@ -1,2 +1,10 @@
 # console-screen
- 🪄 Console Screen
+
+🪄 Console Screen
+
+## Install
+
+```bash
+yarn add console-screen
+npm install console-screen
+```
