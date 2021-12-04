@@ -21,3 +21,15 @@ screen.rendering('Hello, World!'); // Clear Console and Print Hello, World!
 
 screen.resetCursor(); // Reset Cursor
 ```
+
+## Example
+
+[Simple Example](./index.js)
+
+```bash
+git clone https://github.com/kangdongmandoo/console-screen.git
+
+yarn # or npm install
+
+node index
+```
