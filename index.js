@@ -1,4 +1,4 @@
-const consoleScreen = require('./dist/console-screen.cjs');
+const consoleScreen = require('console-screen');
 
 const screen = new consoleScreen();
 
@@ -17,25 +17,27 @@ function getRandom(min, max) {
 
 setInterval(() => {
   screen.rendering(
-    `    [${index} / ${screen.$.screenX}]  ${message}\n\n\n${player1.space}*\n${player2.space}*`
+    `    [${index} / ${screen.$.screenX}]  ${message}  won : ${won}\n\n\n${player1.space}*\n${player2.space}*`
   );
   index += 1;
   if (index >= 25) {
     message = 'start!';
 
     if (player1.space.length <= screen.$.screenX - 4) {
-      if (!won) won = 'player1';
       player1.space += ' ';
       if (getRandom(1, 2) === 1) {
         player1.space += ' ';
       }
+    } else {
+      if (!won) won = 'player1';
     }
     if (player2.space.length <= screen.$.screenX - 4) {
-      if (!won) won = 'player2';
       player2.space += ' ';
       if (getRandom(1, 2) === 1) {
         player2.space += ' ';
       }
+    } else {
+      if (!won) won = 'player2';
     }
   }
 }, 40);
