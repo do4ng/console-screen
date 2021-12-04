@@ -1,8 +1,10 @@
+// @ts-nocheck
 import typescript from 'rollup-plugin-typescript2';
 
 const plugins = [
   typescript({
     tsconfig: 'tsconfig.json',
+    declaration: true,
   }),
 ];
 
