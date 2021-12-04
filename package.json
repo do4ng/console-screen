@@ -20,5 +20,8 @@
   },
   "scripts": {
     "bundle": "rollup -c"
+  },
+  "dependencies": {
+    "console-screen": "^1.0.1"
   }
 }
