@@ -1,6 +1,5 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable comma-dangle */
-/* eslint-disable no-undef-init */
 /* eslint-disable prefer-const */
 /* eslint-disable new-cap */
 const consoleScreen = require('./dist/console-screen.cjs');
