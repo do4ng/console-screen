@@ -1,5 +1,6 @@
 {
   "name": "console-screen",
+  "license": "MIT",
   "files": [
     "dist"
   ],
