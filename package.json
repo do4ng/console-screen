@@ -1,10 +1,11 @@
 {
   "name": "console-screen",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "files": [
     "dist"
   ],
+  "types": "index.d.ts",
   "main": "dist/console-screen.cjs.js",
   "module": "dist/console-screen.es.js",
   "devDependencies": {
