@@ -1,10 +1,15 @@
 {
   "name": "console-screen",
   "license": "MIT",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "files": [
     "dist"
   ],
+  "homepage": "https://github.com/kangdongmandoo/console-screen",
+  "bugs": {
+    "url": "https://github.com/kangdongmandoo/console-screen/issues",
+    "email": "issues@axios.com"
+  },
   "main": "dist/console-screen.cjs.js",
   "module": "dist/console-screen.es.js",
   "devDependencies": {
