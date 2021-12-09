@@ -24,7 +24,7 @@ screen.resetCursor(); // Reset Cursor
 
 ## Example
 
-[Simple Example](./index.js)
+[Simple Example](https://github.com/kangdongmandoo/console-screen/blob/main/index.js)
 
 ```bash
 git clone https://github.com/kangdongmandoo/console-screen.git
